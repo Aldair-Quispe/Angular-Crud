@@ -14,6 +14,7 @@ import { PostService } from 'src/app/post.service';
   styleUrls: ['./show.component.css']
 })
 export class ShowComponent implements OnInit {
+  documents;
   Posts: Post[]
 
   constructor(private postService: PostService) { }

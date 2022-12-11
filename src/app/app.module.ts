@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import {AngularFireModule} from '@angular/fire/compat';
 import {AngularFireAuthModule} from '@angular/fire/compat/auth';
 import {AngularFirestoreModule} from '@angular/fire/compat/firestore';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 
 //importar configuracion de firebase
 import { environment } from 'src/environments/environment';
@@ -33,6 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AngularFireAuthModule,
     AngularFirestoreModule,
     FormsModule,
+    AngularFireDatabaseModule,
     ReactiveFormsModule
   ],
   providers: [],

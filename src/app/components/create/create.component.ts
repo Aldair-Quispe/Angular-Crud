@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 //Importar Sevicios
 import { PostService } from 'src/app/post.service';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, FormControl, NgForm } from '@angular/forms';
 import {Router} from '@angular/router';
 
 
