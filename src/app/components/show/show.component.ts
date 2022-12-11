@@ -1,5 +1,7 @@
 import { OnInit } from '@angular/core';
 import { Component } from '@angular/core';
+import { AppRoutingModule } from 'src/app/app-routing.module';
+
 //Importar Modelo
 import { Post } from 'src/app/post.model';
 //Importar Sevicios
