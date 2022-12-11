@@ -26,7 +26,7 @@ export class PostService {
               .valueChanges()
   }
   createPost(post: Post){
-    return new Promise<any> ((resolve, reject) => {
+    return new Promise<any> ( (resolve, reject) => {
       this.angularFirestore
         .collection("posts")
         .add(post)
@@ -40,13 +40,13 @@ export class PostService {
   }
   updstePost(post: Post, id){
     return this.angularFirestore
-              .collection("posts")
-              .doc(id)
-              .update({
-                title: post.title,
-                content: post.content,
-                author: post.author,
-              });
+      .collection("posts")
+      .doc(id)
+      .update({
+        title: post.title,
+        content: post.content,
+        author: post.author,
+      });
   }
   deletePost(post){
     return this.angularFirestore
