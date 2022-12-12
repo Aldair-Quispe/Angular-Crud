@@ -18,6 +18,7 @@ import { CreateComponent } from './components/create/create.component';
 import { EditComponent } from './components/edit/edit.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { getApp } from 'firebase/app';
 
 @NgModule({
   declarations: [
